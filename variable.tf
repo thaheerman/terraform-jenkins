@@ -3,10 +3,7 @@ variable "aws_region" {
        default     = "ap-south-1" 
 }
 
-variable "key_name" { 
-    description = " SSH keys to connect to ec2 instance" 
-    default     =  "now" 
-}
+
 
 variable "instance_type" { 
     description = "instance type for ec2" 
